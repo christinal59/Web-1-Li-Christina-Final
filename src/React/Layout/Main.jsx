@@ -37,5 +37,10 @@ const Main = () => {
 export default Main;
 
 const MainStyled = styled.main`
-    
+    .inset {
+        border: solid 10px purple;
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+    }
 `;
