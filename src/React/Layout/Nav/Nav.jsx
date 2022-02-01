@@ -7,7 +7,7 @@ const Nav = () => {
 
     return (
         <NavStyled className='Nav'>
-            <MainMenu/>
+        <MainMenu/>
         </NavStyled>
     );
 }
@@ -18,4 +18,4 @@ const NavStyled = styled.nav`
     background-color: rgb(1, 68,68);
     padding: 20px;
     color: white;
-`;
+    `;

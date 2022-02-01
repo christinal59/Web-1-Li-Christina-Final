@@ -59,19 +59,23 @@ const Essays= () => {
             </Essay>
             <Essay q='S5 What’s the difference between Web Designer, Front End Developer, and Back End Developer?'>
             <ul>
-                <li>Web Designer designs the look and feel of the website using program like Photoshop or Fireworks and 
-            never touch code but some web designer also does some coding such as HTML, CSS, and JavaScript.</li>
+                <li>Web Designer also known as UX designer designs the look and feel of the website, building mock ups and features using program 
+                    like Photoshop or Fireworks and never touch code but some web designer also does some coding such as HTML, CSS, and JavaScript 
+                    to translate the vision for developers.</li>
                 <li>Front End Developer is a client-side rendering that renders the content on your computer and not a remote web server. 
             They can create a site without any back-end development by using HTML, CSS, and JavaScript and client-side frameworks such as 
             Angular, React, Stencil and Vue. They create user experiences such as text, colors, buttons, images, and navigation menus. 
             Front-end developers build the design into something functional using front-end languages.
                 </li>
                 <li>Back End Developer is a server-side rendering that creates websites and web applications. Back End Developer serves as 
-            the backbone of any application and is responsible for storing and organizing data. It works with software stacks such as operating 
-            systems, web servers, frameworks, language, and programming APIs, .NET, Mean, LAMP, C#, JavaScript, Java, Python, or PHP. The backend 
-            communicates with the frontend by sending and receiving information displayed on the browser.
+            the backbone of any application and is responsible for storing and organizing data, databased (SQL). It works with software stacks such as operating 
+            systems, web servers, frameworks, language, and programming APIs, .NET, Mean, LAMP, C#, JavaScript, Java, Python, Node.js or PHP. 
+            The backend communicates with the frontend by sending and receiving information displayed on the browser.
                 </li>
                 </ul>
+            </Essay>
+            <Essay q='S6 Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
+                    <p>Answer will go on Monday</p>
             </Essay>
         </EssaysStyled>
     )
