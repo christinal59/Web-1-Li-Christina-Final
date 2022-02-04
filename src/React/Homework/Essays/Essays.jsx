@@ -75,7 +75,18 @@ const Essays= () => {
                 </ul>
             </Essay>
             <Essay q='S6 Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'>
-                    <p>Answer will go on Monday</p>
+                    <ul>
+                        <li><b>Site Relative: Url relates from the root of the website.</b>
+                        </li>
+                        <li>
+                            <b>Document Relative: paths used for local links in websites. Users can use document relative path to link a document in another folder 
+                                by specifying the path through the folder hierarchy from the current document to the linked document. (/) forward slash represents moving 
+                                down one level in the folder hierarchy. (../) represents moving up one level the folder hierarchy.
+                            </b>
+                            <li><b>Absolute Paths is a path that describes the location of a file or folder. It helps link a document on another server.
+                            </b></li>
+                        </li>
+                        </ul>
             </Essay>
         </EssaysStyled>
     )
