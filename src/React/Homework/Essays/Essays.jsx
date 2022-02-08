@@ -87,6 +87,31 @@ const Essays= () => {
                             </b></li>
                         </li>
                         </ul>
+
+            </Essay>
+            <Essay q='S7 What is the difference between jpg, gif, png and SVG images?'>
+                <ul>
+                    <li><b>Jpeg</b> stands for Joint Photographic Experts Group and is a method of lossy compression for digital images. 
+                        It’s a high standard of quality but has a lower quality compared to PNG files. The JPEG size is easy to download. 
+                        Jpeg files can be compressed but just lower the resolution of the image and can make for small files at the expense
+                        of quality. Jpeg has millions of colors.
+
+                    </li>
+                    <li><b>Gif</b> stands for graphics interchange format is an image file and has 256 total colors.
+                        Gif can be compressed to be transferred quickly and there is an animated gif which a collection of images played 
+                        in a sequence to appear to move. Gift can have greater compression than PNG and has a larger size compared to PNG.
+                    </li>
+                    <li><b>Png</b> stands for Portable Network Graphics is a bitmap image format on the internet. PNG has millions of colors and
+                        indexed color.PNG’s format is designed to be transferring images on the Internet. It doesn’t support animation.
+                    </li>
+                    <li><b>Scalable Vector Graphics (SVG) </b> are an Extensible Markup Language (XML)-based markup language for describing two-dimensional 
+                        based vector graphics. SVG images can be searched, indexed, scripted, and compressed. Therefore, they can be created edited with 
+                        any text editor or drawing software. SVG format vector images can be rendered at any size without loss of quality. 
+                    </li>
+                </ul>
+            </Essay>
+            <Essay q='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
+                <p>Answer</p>
             </Essay>
         </EssaysStyled>
     )
