@@ -111,7 +111,27 @@ const Essays= () => {
                 </ul>
             </Essay>
             <Essay q='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'>
-                <p>Answer</p>
+                <ul>
+                    <li> <b>Project Manager</b> manages the process of the work done in a team to achieve all project goals within the given constraints. The primary constraints are scope, 
+                    resources, time, and budget.
+                    </li>
+                    <li><b>Business Analyst</b> help guide businesses in improving processes, products, services, and software through data analysis.
+
+                    </li>
+                    <li> <b>Scrum Master</b> is a professional who leads a team using Agile project management through our the project. The difference between a Scrum master and a project manager 
+                    is project manager focuses on the project whereas Scrum master focuses on the team by taking steps to ensure the individual team members are able to success.
+                    </li>
+                    <li><b>User Experience Designer</b> is responsible for user’s overall satisfaction with a product.
+                    </li>
+                    <li><b>Web Developer/Engineer</b> is a software engineer who works on web based applications. They build functions within a website for instance a form to capture an e-mail or a message to thank a customer for their business. 
+                    They are familiar with many software programs and web programming languages such as HTML, JavaScript, Ruby on Rails, and C++.
+                    </li>
+                    <li><b>Quality Assurance Tester</b> conducts software testing, test and find bugs in the app to resolve issues and ensure guidelines are being adhered to.``
+                    </li>
+                    <li><b>DevOps</b> is a set of practices that combines software development (Dev) and IT operations (Ops). It is a philosophy that provides better communication and collaboration between teams. DevOps manages hardware and deployment of software.
+
+                    </li>
+                </ul>
             </Essay>
         </EssaysStyled>
     )
