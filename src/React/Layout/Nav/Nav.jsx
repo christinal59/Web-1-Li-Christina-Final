@@ -14,8 +14,6 @@ const Nav = () => {
 
     const [showMenu, showMenuUpdate] = useState(false);
 
-    console.log('showMenu', showMenu);
-    
     return (
         <NavStyled className='Nav'>
             {
