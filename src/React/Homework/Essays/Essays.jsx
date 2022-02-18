@@ -133,6 +133,9 @@ const Essays= () => {
                     </li>
                 </ul>
             </Essay>
+            <Essay>
+
+            </Essay>
         </EssaysStyled>
     )
 }
