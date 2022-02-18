@@ -1,17 +1,41 @@
 import React from 'react';
 import styled from 'styled-components';
-import { servicesData } from '../servicesData';
 
 import { defaultMediaQueries } from 'React/common/useMediaQuery';
 
+import Lightbox from 'React/common/Lightbox/Lightbox.jsx';
+
 const ServiceGalleryItem = ({service}) => {
 
+    const ActiveContent = () => {
+        return (
+            <>
+                <img src={ service.image} alt={service.title}/>
+                <h3>{ service.title } :: {service.category}</h3>
+            </>
+        );
+    }
+    const ModalContent = () => {
+        return (
+            <>
+                <img src={ service.image} alt={service.title}/>
+                <ul>
+                    <li><b>Category:</b>{service.category}</li> 
+                    <li><b>Cost:</b>{ service.cost }</li>
+                </ul>
+                <p>{ service.description }</p>
+            </>
+        );
+    }
     return (
         <ServiceGalleryItemStyled className='ServiceGalleryItem'>
-            <img src={ service.image} alt={service.title}/>
-            <h3>{ service.title } :: {service.category}</h3>
+            <Lightbox
+                title={ service.title }
+                activeContent={ <ActiveContent /> }
+                modalContent={ <ModalContent /> }
+            />
         </ServiceGalleryItemStyled>
-    );
+    )
 }
 
 export default ServiceGalleryItem;
@@ -21,7 +45,17 @@ const ServiceGalleryItemStyled = styled.div`
     padding: 5px;
     position: relative;
 
-    img {
+    @media ${defaultMediaQueries.mdup} {
+        width: 33%;
+        padding: 5px;
+    }
+    @media ${defaultMediaQueries.ldup} {
+        width: 25%;
+        padding: 5px;
+    }
+
+    .ActiveArea {
+        img {
         width: 100%;
     }
 
@@ -36,16 +70,27 @@ const ServiceGalleryItemStyled = styled.div`
         left: 5px;
         right: 5px;
         bottom: 5px;
-    }
 
-    @media ${defaultMediaQueries.mdup} {
-        width: 33%;
-        padding: 5px;
-        h3 { font-size: 16px; }
+        @media ${defaultMediaQueries.mdup} {
+        font-size: 16px;
     }
-    @media ${defaultMediaQueries.ldup} {
-        width: 25%;
-        padding: 5px;
-        h3 { font-size: 18px; }
+        @media ${defaultMediaQueries.ldup} {
+        font-size: 18px;
+        }
     }
+}
+
+.Light{
+    img {
+        width: 100%;
+        display: block;
+    }
+    ul {
+        padding: 15px;
+        margin: 0px 0px 10px;
+    }
+    p {
+        margin: 0px 0px 10px;
+    }
+}
 `;
