@@ -5,7 +5,7 @@ const Title = ({ title }) => {
 
     return (
         <TitleStyled className='Title'>
-        { title }
+            { title }
         </TitleStyled>
     );
 }

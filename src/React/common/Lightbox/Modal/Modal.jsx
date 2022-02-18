@@ -32,7 +32,7 @@ const Modal = ({title, modalContent, showModalUpdate}) => {
     return (
         <ModalStyled className='Modal'>
             <Dark closeModal={ closeModal } />
-            <Light closeModal={ closeModal } modalContent={ modalContent } />
+            <Light title={ title } closeModal={ closeModal } modalContent={ modalContent } />
         </ModalStyled>
     );
 }
