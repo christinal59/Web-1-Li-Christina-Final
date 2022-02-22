@@ -133,8 +133,28 @@ const Essays= () => {
                     </li>
                 </ul>
             </Essay>
-            <Essay>
+            <Essay q='What is considered the right size for an image or video asset?'>
+            <p>Videos in HD sizes 720 or 1080px, Image  can be  1280x720 or 1920X 1080</p>
+            </Essay>
+            <Essay q='What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
+            <p>Agile is one of the most popular approaches to project management. The benefit of Agile makes the managers’ job easier and help focuses on both delivering quality and value to the customer and also completing the project within the given project constraints. 
+                The pros of Agile model is customers, developers, and testers are constantly interacting with each other so the working software is delivered more frequently. The cons of Agile model is the lack of formal training on Agile which can lead teams in engaging in 
+                bad behaviors and lack of predictability.</p>
+            </Essay>
+            <Essay q= 'What are testing environments? What is the difference between Local, Dev, QA and Production?'>
+                <p> A testing environment is: Space developers deploy there work for testing their work.</p>
 
+                <ul>
+                    <li><b>Local:</b>Developer's Machine- to build and test your own code on your computer.</li>
+                    <li><b>Dev:</b>Dev Testing Server: Dev Paired Code reviews.</li>
+                    <li><b>QA:</b>Quality Assurance Testing Server for QA team.</li>
+                    <li><b>UAT</b> User Acceptance Testing Server for Customer to test.</li>
+                    <li><b>Production: Live website for users to access- public domain.</b></li>
+                </ul>
+            </Essay>
+            <Essay q='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
+            <p> HTML img tag linked images to webpages. The img tag has two required attributes: src specifies the path to the image and alt specifies an alternate text of the image. For images to serve as a link then add the a tag and put img tag inside the a tag. 
+                For CSS to come in the picture, users use CSS width and height properties to define the size of the image and CSS float property let the image float on the right or left of the text.</p>
             </Essay>
         </EssaysStyled>
     )

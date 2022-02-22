@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { collapseTextChangeRangesAcrossMultipleVersions } from 'typescript';
 
 import ServiceMenuItem from './ServiceMenuItem.jsx';
 
