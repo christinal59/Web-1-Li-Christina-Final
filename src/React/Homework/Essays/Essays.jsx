@@ -155,6 +155,8 @@ const Essays= () => {
             <Essay q='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'>
             <p> HTML img tag linked images to webpages. The img tag has two required attributes: src specifies the path to the image and alt specifies an alternate text of the image. For images to serve as a link then add the a tag and put img tag inside the a tag. 
                 For CSS to come in the picture, users use CSS width and height properties to define the size of the image and CSS float property let the image float on the right or left of the text.</p>
+            <p>Printable is good in HTML, CSS by default is off- as background image.</p>
+            <p>HtmL if image is related to content.</p>
             </Essay>
         </EssaysStyled>
     )
