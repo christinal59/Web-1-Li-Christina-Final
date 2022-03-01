@@ -158,6 +158,15 @@ const Essays= () => {
             <p>Printable is good in HTML, CSS by default is off- as background image.</p>
             <p>HtmL if image is related to content.</p>
             </Essay>
+            <Essay q='What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)'>
+                <li id="timbutu"><b>ID:</b>Label: We use pound sign (#) in CSS and JS. Singular- should only label one HTML element on a page. </li>
+                <li id="timbukthree"><b>Classes:</b>Label: We use the period (.) in Css and JS. Defines a series; Multiple HTML elements.</li>
+                <li id class="my Border secondaryCLass"><b>Tag:</b> Any HTML tag is in the HTML language.</li>
+                <li class="myborder"><b>Specificity</b>Determines which selector and rule applies to an elelment.</li>
+            </Essay>
+            <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
+                <p>Answer will go here for Thursday.</p>
+            </Essay>
         </EssaysStyled>
     )
 }
