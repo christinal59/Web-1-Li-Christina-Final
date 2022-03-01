@@ -23,6 +23,13 @@ const Contact = () => {
                 placeholder='Your Name'
                 rules={ ['required'] }
             />
+            <Input 
+                label='Email'
+                id='email'
+                type='email'
+                placeholder='usernameemail.com'
+                rules={ ['required', 'email'] }
+            />
             <Textarea 
                 label='Message'
                 id='message'
