@@ -17,8 +17,8 @@ export { default as SubmitButton } from './Controls/SubmitButton.jsx';
 const UniversalForm = ({children, apiUrl, onSubmit}) => {
 
     const defaultFormData = {
-        sample: apiUrl,
-        sample: onSubmit,
+        apiUrl: apiUrl,
+        onSubmit: onSubmit,
         payload: {},
         feedback: {
             show: false,
