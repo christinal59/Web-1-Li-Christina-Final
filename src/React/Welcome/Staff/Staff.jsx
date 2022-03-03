@@ -30,7 +30,7 @@ const Staff = () => {
 export default Staff;
 
 const StaffStyled = styled.div`
-    background-color: teal;
+    background-color: #c1c1c1;
     padding: 20px;
     margin: 20px 0px;
 
