@@ -14,7 +14,6 @@ const Login = () => {
             <h1>Login</h1> 
             <UniversalForm
             apiUrl='/user/login'
-            apiUrl='/user/password'
             onSubmit={ onSubmitHandler}           
             >
 
@@ -23,7 +22,7 @@ const Login = () => {
                 label='Username'
                 id='username'
                 placeholder='user@domain.com'
-                rules={ ['required'] [ 'email' ] }
+                rules={ ['required', 'email' ] }
             />
             
             <Input 
