@@ -165,6 +165,18 @@ const Essays= () => {
                 <li class="myborder"><b>Specificity</b>Determines which selector and rule applies to an elelment.</li>
             </Essay>
             <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
+                <p> CSS Preprocessors are scripting languages that extend the default capabilities of CSS by letting people generate CSS fro mthe preprocessor’s own unique syntax. Most CSS preprocessors will add some features that don’t exist in CSS, 
+                    such as mixing, nesting selector, inheritance selector. To use a CSS CSS Preprocessor you must install a CSS compiler on your web server. Popular CSS preprocessors: Sass, LESS, Stylus, PostCSS
+                    Styled-components is a library build for React and React Native developers. Styled Components leverage a mixture of JavaScript and CSS using a technique called CSS-in-JS. Styled-compenets has full CSS functionality, use of tagged 
+                    template literals, automatic vendor prefixing, dynamic rendering during run-time, and server-side rendering support. With styled-compenents, developers can have the flexibility of reusing their CSS code from one project to another 
+                    and no need to map your created components to external CSS styles. The advantages of using styled-components are every stylings are tied to a specific components which make it easier to know which CSS is applied, and makes it easier 
+                    to delete unused components styles; it provide unique class names for your styles which help eliminate problems with class names duplications, misspellings and overlaps; global themes are supported in style-components which made it 
+                    simple without manually managing dozens of classes; with styled-components you can import your styles into other project areas regardless of the size of your codebase. 
+                    <b>How do Styled Components violate separation of concerns</b> : Separation of concerns is when code is grouped together based on relationship rather than an arbitrary requirement. With styled-components, there’s not need for global 
+                    CSS in changing default colors or sizes because we can use a component and co-locate the style within it.
+                    </p>
+            </Essay>
+            <Essay q="">
                 <p>Answer will go here for Thursday.</p>
             </Essay>
         </EssaysStyled>
