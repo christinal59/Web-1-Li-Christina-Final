@@ -14,6 +14,7 @@ const Login = () => {
             <h1>Login</h1> 
             <UniversalForm
             apiUrl='/user/login'
+            apiUrl='/user/password'
             onSubmit={ onSubmitHandler}           
             >
 
