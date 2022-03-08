@@ -178,7 +178,8 @@ const Essays= () => {
             </Essay>
             <Essay q="Who is the client? (e.g. Me, a friend of mine starting a business, Coffee Bean, Made Up Widget Company) What is it's purpose? (e.g. an online brochure for a coffee shop, to promote my portfolio work) Why did you choose this subject?">
                 <p>In my other class, I’m working on a project about a home improvement app so I’ll be the client. For my final project, I would like to make an online website to promote this app. People can first visit this website to get an idea prior to downloading. 
-                The purpose of this home improvement online website is to provide a brief introduction and show how easy and reliable services will be on the app. I choose this subject because I want to provide a platform where people who share similar interests can post 
+                The purpose of this home improvement online website is to provide a brief introduction and show how easy and reliable services will be on the app. </p>
+                <p>I choose this subject because I want to provide a platform where people who share similar interests can post 
                 and blog about their experiences. Also, a platform where people can request taskers to help them fix or redecorate their places. Getting a simple task done with just simple clicks would be the purpose of this app.</p>
             </Essay>
         </EssaysStyled>
