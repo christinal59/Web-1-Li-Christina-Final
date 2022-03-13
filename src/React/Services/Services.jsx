@@ -17,8 +17,8 @@ const Services = () => {
     console.log('chosenCategory', chosenCategory);
 
     return (
-        <ServicesStyled className='Services'>
-            <h1>Services</h1> 
+        <ServicesStyled className='Portfolio'>
+            <h1>Portfolio</h1> 
             <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate }/>
             <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory } />
         </ServicesStyled>

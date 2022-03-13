@@ -18,7 +18,7 @@ export default Header;
 
 const HeaderStyled = styled.div`
     display: flex;
-    background-color: teal;
+    background-color: #52ffff;
     color: white;
 
     h4 {
