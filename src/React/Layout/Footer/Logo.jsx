@@ -15,7 +15,7 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
-    fox logo.png {
+    fox-logo.png {
         width: 30px;
     }
 `;

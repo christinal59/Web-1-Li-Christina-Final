@@ -5,7 +5,7 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled className='SiteTitle'>
-            <h2>Spa Sanctuary :: A SPA for Every Occasion</h2>
+            <h2>Christina Li :: Graphic Designer</h2>
             <div className="copyright">&copy; 2022. All right reserved.</div>
         </SiteTitleStyled>
     );
@@ -17,10 +17,10 @@ const SiteTitleStyled = styled.div`
     h2 {
         margin: 5px 0px;
         font-size: 14px;
-        color: #a3cfcf;
+        color: black;
     }
     .copyright {
         font-size: 14px;
-        color: #a3cfcf;
+        color: black;
     }
 `;
