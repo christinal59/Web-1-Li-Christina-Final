@@ -11,7 +11,7 @@ const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <FontAwesomeIcon icon={ faHotTub } className='hot-tub-icon'/>
+            <FontAwesomeIcon icon={ faHotTub } className='fox'/>
         </SiteLogoStyled>
     );
 }

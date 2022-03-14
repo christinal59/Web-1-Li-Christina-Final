@@ -15,7 +15,7 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
-    svg.hot-tub-icon {
+    fox logo.png {
         width: 30px;
     }
 `;

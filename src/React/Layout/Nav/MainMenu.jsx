@@ -30,9 +30,9 @@ const MainMenuStyled = styled.div`
 
     a {
         display: block;
-        color: white;
+        color: black;
         margin: 5px 0px;
-        background-color: #007373;
+        background-color: cmyk(0,0,0,0);
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -44,12 +44,12 @@ const MainMenuStyled = styled.div`
         font-weight: bold;
 
         &:hover {
-            background-color: #038484;
+            background-color: #add8e6;
         }
 
         &.active {
             color: #007373;
-            background-color:#AEE6E6;
+            background-color:#add8e6;
         }
 
     }
