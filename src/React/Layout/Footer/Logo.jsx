@@ -16,6 +16,6 @@ export default Logo;
 
 const LogoStyled = styled.div`
     fox-logo.png {
-        width: 30px;
+        width: 25px;
     }
 `;

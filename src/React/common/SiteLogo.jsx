@@ -1,17 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-    faHotTub,
-} from '@fortawesome/free-solid-svg-icons';
-<FontAwesomeIcon icon={ faHotTub } />
 
 const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <FontAwesomeIcon icon={ faHotTub } className='fox'/>
+            <img src="/assets/img/fox-logo.png" className='foxlogo'/>
         </SiteLogoStyled>
     );
 }
@@ -23,8 +18,4 @@ const SiteLogoStyled = styled.div`
     width: 100%;
     height: 100%;
 
-    svg.hot-tub-icon {
-        width: 100px;
-        height: auto;
-    }
 `;
