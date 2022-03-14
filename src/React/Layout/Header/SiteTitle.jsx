@@ -5,8 +5,8 @@ const SiteTitle = () => {
 
     return (
         <SiteTitleStyled className='SiteTitle'>
-            <h2> Spa Sanctuary </h2>
-            <h3>A Spa For Every Occasion</h3>
+            <h2> Christina Li </h2>
+            <h3>Graphic Designer</h3>
         </SiteTitleStyled>
     );
 }

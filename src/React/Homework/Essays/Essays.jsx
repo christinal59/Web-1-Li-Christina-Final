@@ -182,6 +182,17 @@ const Essays= () => {
                 <p>I choose this subject because I want to provide a platform where people who share similar interests can post 
                 and blog about their experiences. Also, a platform where people can request taskers to help them fix or redecorate their places. Getting a simple task done with just simple clicks would be the purpose of this app.</p>
             </Essay>
+            <Essay q='What is the difference between Web Hosts, Domains, and FTP?'>
+                <p> Domain is the address. Web Host is where the website files are stored.A functional website needs both a domain and hosting space.
+                FTP means File Transfer Protocol. FTP enables the transfer of files between computer systems or through the cloud.
+                </p>
+                </Essay>
+            <Essay q='What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'>
+                <p>A package manager keeps track of what software is installed on a computer and manages installing new softwares, upgrading softwares to a newer versions and remove software that user previously installed.
+                Composer-dependency manager for PHP
+                Node Package Manager (npm)- package manager for JavaScript
+                Bower-package manager for front-end development. </p>
+                </Essay>
         </EssaysStyled>
     )
 }
