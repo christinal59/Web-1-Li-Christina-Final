@@ -191,7 +191,8 @@ const Essays= () => {
                 <p>A package manager keeps track of what software is installed on a computer and manages installing new softwares, upgrading softwares to a newer versions and remove software that user previously installed.
                 Composer-dependency manager for PHP
                 Node Package Manager (npm)- package manager for JavaScript
-                Bower-package manager for front-end development. </p>
+                Bower-package manager for front-end development. 
+                Ensures all team members are using the same dependencies and control over versioning-less likely to break apps. </p>
                 </Essay>
         </EssaysStyled>
     )
