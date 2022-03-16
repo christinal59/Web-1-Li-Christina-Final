@@ -60,8 +60,8 @@ const MainMenuStyled = styled.div`
                 a {
                     display: inline-block;
                     width: 150px;
-                    margin: 0px 10px;
-                    font-size: 16px;
+                    margin: 0px 5px;
+                    font-size: 14px;
                     border-radius: 5px;
                 }
             }

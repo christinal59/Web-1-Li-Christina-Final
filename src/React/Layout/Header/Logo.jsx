@@ -15,5 +15,10 @@ const Logo = () => {
 export default Logo;
 
 const LogoStyled = styled.div`
-    
+    .SiteLogo {
+        img {
+            max-width: 100%;
+        }
+
+    }
 `;

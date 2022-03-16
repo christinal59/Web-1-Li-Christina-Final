@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Youtube from './Youtube.jsx';
+import Industry from './Sub/Industry.jsx';
+
 /* Components ---------------------------*/
 import UniversalForm, { Input, Textarea, SubmitButton } from 'React/common/UniversalForm/UniversalForm.jsx';
 
@@ -12,11 +15,9 @@ const Login = () => {
     return (
 
         <LoginStyled className='Login'>
-            <iframe width="420" height="315"  
-            src="https://www.youtube.com/watch?v=tbA-CJu08Z0">
-            </iframe>
-            
-            <h1>Login</h1> 
+            <h1>Login</h1>
+
+            <Youtube /> 
             <UniversalForm
             apiUrl='/user/login'
             onSubmit={ onSubmitHandler}           
@@ -25,7 +26,7 @@ const Login = () => {
             <Input 
                 type='text'
                 label='Username'
-                id='username'
+                id='christinalee.is@gmail.com'
                 placeholder='user@domain.com'
                 rules={ ['required', 'email' ] }
             />
@@ -33,7 +34,7 @@ const Login = () => {
             <Input 
                 id='password'
                 label='Password'
-                type='password'
+                type='00000'
                 rules={ ['required'] }
             />
             <SubmitButton>Log in</SubmitButton>
@@ -46,5 +47,4 @@ const Login = () => {
 export default Login;
 
 const LoginStyled = styled.div`
-    
 `;
