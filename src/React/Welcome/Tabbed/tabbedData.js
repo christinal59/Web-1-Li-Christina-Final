@@ -1,17 +1,13 @@
 export const tabbedData = [
     {
-        image: '/assets/img/MissionVision/about.jpg',
+        image: '/assets/img/fornow/Slide-2.JPG',
         title: 'About',
         text: '<p><b>About</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p> <p>About Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
     },
     {
-        image: '/assets/img/MissionVision/mission.jpg',
-        title: 'Mission',
-        text: '<p><b>Mission</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
+        image: '/assets/img/fornow/Slide-6.JPG',
+        title: 'Passion',
+        text: '<p><b>Passion</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
     },
-    {
-        image: '/assets/img/MissionVision/vision.jpg',
-        title: 'Vision',
-        text: '<p><b>Vision</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
-    },
+    
 ];

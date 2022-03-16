@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Slideshow from './Sildeshow/Slideshow.jsx';
 import Tabbed from './Tabbed/Tabbed.jsx';
-import Staff from './Staff/Staff.jsx';
+
 
 
 const Welcome = () => {
@@ -11,9 +10,7 @@ const Welcome = () => {
     return (
         <WelcomeStyled className='Welcome'>
             <h1>Welcome </h1>
-            <Slideshow/>
             <Tabbed/>
-            <Staff/>
         </WelcomeStyled>
     );
 }
